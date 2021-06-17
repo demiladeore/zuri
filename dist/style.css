@@ -89,6 +89,17 @@ span {
   margin-top: 1em;
 }
 
+img {
+  display: inline-block;
+  margin-bottom: 2em;
+  margin-right: 7px;
+}
+
+.social img:last-child {
+  position: relative;
+  top: 2px;
+}
+
 .log {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -125,6 +136,11 @@ span {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.social {
+  border-bottom: 1px solid var(--black);
+  margin-bottom: 1px;
 }
 
 form {
