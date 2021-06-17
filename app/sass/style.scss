@@ -119,7 +119,7 @@ input[type ="button"]{
 }
 .rec{
     width: 350px;
-    // border: 2px solid red;
+    border: 2px solid red;
     // position: absolute;
     // bottom: 0;
 }
@@ -139,10 +139,17 @@ input[type ="button"]{
         height: 35%;
     }
     .log{
-        height: 70%;
+        height: 65%;
+        align-items: flex-start;
+    }
+    .log_cont{
+        width: 35ch;
     }
     .desc_cont{
-        width: 55ch;
+        width: 35ch;
+    }
+    .rec, form, .social{
+        width: 35ch;
     }
     input[type = "text"]{
         width: 90%;

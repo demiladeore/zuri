@@ -11,8 +11,8 @@ html {
 }
 
 *, *::before, *::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -173,6 +173,7 @@ input[type="button"] {
 
 .rec {
   width: 350px;
+  border: 2px solid red;
 }
 
 @media only screen and (max-width: 900px) {
@@ -188,10 +189,19 @@ input[type="button"] {
     height: 35%;
   }
   .log {
-    height: 70%;
+    height: 65%;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .log_cont {
+    width: 35ch;
   }
   .desc_cont {
-    width: 55ch;
+    width: 35ch;
+  }
+  .rec, form, .social {
+    width: 35ch;
   }
   input[type="text"] {
     width: 90%;

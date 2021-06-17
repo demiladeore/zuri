@@ -8,7 +8,7 @@ html{
     --black: #3333;
 }
 *,*::before, *::after{
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 body{
     color: var(--color);
