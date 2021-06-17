@@ -173,7 +173,6 @@ input[type="button"] {
 
 .rec {
   width: 350px;
-  border: 2px solid red;
 }
 
 @media only screen and (max-width: 900px) {
