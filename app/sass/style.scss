@@ -1,22 +1,36 @@
 @import 'globals';
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
 section{
     display: flex;
     // min-width: 980px;
 }
+
+// ====================
+// Typography
+// ====================
 p{
-    font-size: .8em;
+    font-size: 1.2em;
     line-height: 1.5em;
+    letter-spacing: -2%;
     // letter-spacing: ;
     // word-spacing: ;
 }
 h6{
-    font-size: 0.8rem;
+    font-size: 1rem;
+}
+h3{
+    font-size: 2rem;
+}
+h4{
+    font-size: 1.5em;
+    font-weight: 600;
 }
 .log_cont > h3{
     color: rgb(46, 46, 46)
 }
 span{
-    color: rgb(122, 122, 122);
+    color: var(--black);
 }
 .desc{
     background: url('/assets/images/UZUzvJEvKnI.png');
@@ -31,7 +45,7 @@ span{
 }
 .desc_cont{
     display: flex;
-    width: 45ch;
+    width: 75ch;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -48,7 +62,8 @@ span{
     width: 50%;
     height: 100vh;
     flex-basis: 50%;
-    background: rgba(245, 245, 245, 0.342);
+    // background: rgba(245, 245, 245, 0.342);
+    background:var(--bg-color);
     flex-direction: column;
     padding: 3em;
     // border: 3px solid red;
@@ -78,8 +93,8 @@ input[type ="button"]{
     height: 30px;
     width: 100px;
     color: white;
-    background-color: var(--color);
-    border: 2px solid var(--color);
+    background-color: var(--fill);
+    border: 2px solid var(--fill);
     border-radius: 3px;
 }
 .rec{
@@ -99,6 +114,9 @@ input[type ="button"]{
     }
     .desc, .log{
         flex-basis: 100%;
+    }
+    .desc_cont{
+        width: 45ch;
     }
 
 }
