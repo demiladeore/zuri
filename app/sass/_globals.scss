@@ -1,0 +1,15 @@
+html{
+    font-size: .8em;
+    box-sizing: border-box;
+    --color: rgb(37, 91, 206);
+}
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    color: var(--color);
+    margin: 0;
+    padding: 0;
+    font-family:    Arial, Helvetica, sans-serif;
+    
+}
